@@ -60,7 +60,6 @@ services:
       # User-defined Custom Variables
       # FILES: Internal container path for binary data storage.
       - FILES=/home/node/.n8n-files
-      - chat_id=${CHAT_ID}
     volumes:
       - ./n8n_data:/home/node/.n8n
       # Shared folder for files accessible
